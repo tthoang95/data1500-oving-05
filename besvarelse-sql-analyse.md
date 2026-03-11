@@ -39,6 +39,7 @@
 4.  `SELECT KatNr, SUM(Antall) FROM Vare GROUP BY KatNr HAVING SUM(Antall) > 500;`
 
 
+
 1.  **Forklaring:** ...
 
 2.  **Forklaring:** ...
