@@ -6,6 +6,8 @@
 3.  `SELECT DISTINCT KatNr FROM Vare;`
 4.  `SELECT Fornavn, Etternavn, Stilling AS Jobbtittel FROM Ansatt;`
 
+**Svar:**
+
 1.  **Forklaring:** ...
 
 2.  **Forklaring:** ...
