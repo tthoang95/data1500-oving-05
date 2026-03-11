@@ -22,6 +22,8 @@
 3.  `SELECT Fornavn, Etternavn FROM Kunde WHERE PostNr = '0001' OR PostNr = '0002';`
 4.  `SELECT Betegnelse FROM Vare WHERE NOT KatNr = 1;
 
+**Svar:**
+
 1.  **Forklaring:** ...
 
 2.  **Forklaring:** ...
@@ -36,6 +38,7 @@
 3.  `SELECT Stilling, AVG(Årslønn) FROM Ansatt GROUP BY Stilling;`
 4.  `SELECT KatNr, SUM(Antall) FROM Vare GROUP BY KatNr HAVING SUM(Antall) > 500;`
 
+
 1.  **Forklaring:** ...
 
 2.  **Forklaring:** ...
@@ -49,6 +52,8 @@
 2.  `SELECT O.OrdreNr, K.Fornavn, K.Etternavn FROM Ordre O LEFT JOIN Kunde K ON O.KNr = K.KNr;`
 3.  `SELECT A1.Fornavn, A2.Fornavn FROM Ansatt A1, Ansatt A2 WHERE A1.PostNr = A2.PostNr AND A1.AnsNr < A2.AnsNr;`
 4.  `SELECT V.Betegnelse FROM Vare V WHERE V.VNr NOT IN (SELECT VNr FROM Ordrelinje);`
+
+**Svar:**
 
 1.  **Forklaring:** ...
 
